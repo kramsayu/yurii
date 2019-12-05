@@ -17,4 +17,4 @@ deploy:
 	@echo "Adding and Committing results.txt to git."
 	@git add results.txt
 	@git commit -m "lab_2: results.txt - makefile"
-
+	@git push
