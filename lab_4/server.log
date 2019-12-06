@@ -1,0 +1,55 @@
+WARNING 2019-12-05 23:56:50,666 root : 
+Server в роботі :)
+
+INFO 2019-12-05 23:56:50,666 root : Сервер доступний. Час на сервері: 2019-12-05 21:56-50
+INFO 2019-12-05 23:56:50,666 root : Запитувана сторінка: : /health/
+INFO 2019-12-05 23:56:50,666 root : Відповідь сервера місти наступні поля:
+INFO 2019-12-05 23:56:50,666 root : Ключ: date, Значення: 2019-12-05 21:56-50
+INFO 2019-12-05 23:56:50,666 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-05 23:56:50,666 root : Ключ: server_info, Значення: ['Linux', 'kramsayu-VirtualBox', '5.0.0-23-generic', '#24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019', 'x86_64']
+INFO 2019-12-05 23:56:50,666 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-12-05 23:57:03,108 root : 
+Виникла наступна помилка: 
+ HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4537552f60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-12-05 23:58:02,844 root : 
+Виникла наступна помилка: 
+ HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9168088048>: Failed to establish a new connection: [Errno 111] Connection refused'))
+WARNING 2019-12-06 16:02:35,080 root : 
+Server в роботі :)
+
+INFO 2019-12-06 16:02:35,080 root : Сервер доступний. Час на сервері: 2019-12-06 16:02-35
+INFO 2019-12-06 16:02:35,081 root : Запитувана сторінка: : /health/
+INFO 2019-12-06 16:02:35,081 root : Відповідь сервера місти наступні поля:
+INFO 2019-12-06 16:02:35,082 root : Ключ: date, Значення: 2019-12-06 16:02-35
+INFO 2019-12-06 16:02:35,082 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-06 16:02:35,082 root : Ключ: server_info, Значення: ['Linux', '001c598892c9', '5.0.0-23-generic', '#24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019', 'x86_64']
+INFO 2019-12-06 16:02:35,082 root : Ключ: client_info, Значення: python-requests/2.22.0
+WARNING 2019-12-06 16:03:35,164 root : 
+Server в роботі :)
+
+INFO 2019-12-06 16:03:35,164 root : Сервер доступний. Час на сервері: 2019-12-06 16:03-35
+INFO 2019-12-06 16:03:35,164 root : Запитувана сторінка: : /health/
+INFO 2019-12-06 16:03:35,164 root : Відповідь сервера місти наступні поля:
+INFO 2019-12-06 16:03:35,164 root : Ключ: date, Значення: 2019-12-06 16:03-35
+INFO 2019-12-06 16:03:35,165 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-06 16:03:35,165 root : Ключ: server_info, Значення: ['Linux', '001c598892c9', '5.0.0-23-generic', '#24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019', 'x86_64']
+INFO 2019-12-06 16:03:35,165 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-12-06 16:04:35,229 root : 
+Виникла наступна помилка: 
+ HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f28f957e310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-12-06 16:05:35,292 root : 
+Виникла наступна помилка: 
+ HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f28f9e48250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-12-06 16:07:22,305 root : 
+Виникла наступна помилка: 
+ HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcd541c3350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+WARNING 2019-12-06 16:08:22,409 root : 
+Server в роботі :)
+
+INFO 2019-12-06 16:08:22,410 root : Сервер доступний. Час на сервері: 2019-12-06 16:08-22
+INFO 2019-12-06 16:08:22,410 root : Запитувана сторінка: : /health/
+INFO 2019-12-06 16:08:22,410 root : Відповідь сервера місти наступні поля:
+INFO 2019-12-06 16:08:22,410 root : Ключ: date, Значення: 2019-12-06 16:08-22
+INFO 2019-12-06 16:08:22,411 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-06 16:08:22,411 root : Ключ: server_info, Значення: ['Linux', 'a39c86ce23a6', '5.0.0-23-generic', '#24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019', 'x86_64']
+INFO 2019-12-06 16:08:22,411 root : Ключ: client_info, Значення: python-requests/2.22.0
