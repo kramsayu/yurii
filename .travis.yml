@@ -27,7 +27,7 @@ jobs:
         - cd ./lab_4/
       script:
         - docker build -t kramsayu/lab4-ex:django-travis .
-        - docker build -t kramsayu/lab4-ex:monitoring-travis --file Dockerfile.monitoring .
+        - docker build -t kramsayu/lab4-ex:monitoring-travis --file Dockerfile.monitoring . 
         - docker images
         - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push kramsayu/lab4-ex:django-travis; docker push kramsayu/lab4-ex:monitoring-travis; else echo "PR skip deploy"; fi
     - stage: "Build Lab 5."
