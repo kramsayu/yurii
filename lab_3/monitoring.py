@@ -20,10 +20,10 @@ def main(url):
         r = requests.get(url)
         data = json.loads(r.content)
     except Exception as e:
-        print(ser_down, e)
+        print(ser_down, e, flush=True)
         logging.error("%s %s",ser_down, e)
     else:
-        print(ser_work)
+        print(ser_work, flush=True)
         logging.warning("%s", ser_work)
         logging.info("Сервер доступний. Час на сервері: %s", data['date'])
         logging.info("Запитувана сторінка: : %s", data['current_page'])
